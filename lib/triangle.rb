@@ -13,6 +13,7 @@ class Triangle
     elsif @a == @b && @b == @c
       retun :equilateral
     elsif @a == @b || @b == @c || @a == @c
+      return :isosceles
 
 
     end
