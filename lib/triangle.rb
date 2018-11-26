@@ -12,6 +12,7 @@ class Triangle
       raise TriangleError
     elsif @a == @b && @b == @c
       retun :equilateral
+    elsif @a == @b || @b == @c || @a == @c
 
 
     end
